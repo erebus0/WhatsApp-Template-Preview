@@ -57,7 +57,6 @@ src/
 REACT_APP_API_URL=http://localhost:5000
 REACT_APP_VERSION=$npm_package_version
 ```
-![screenshot](Screenshot from 2024-11-18 09-17-47.png)
 
 
 ## Contributing
@@ -68,6 +67,12 @@ Pull requests are welcome. Areas for contribution:
 - Testing coverage
 
 ## Deployment
+
+
+
+# ScreenShot
+
+![Screenshot of the project](./images/screenshot.png)
 
 
 ##License
