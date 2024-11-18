@@ -32,9 +32,8 @@ npm run build
 
 1. Clone the repository
 2. Install dependencies: `npm install`
-3. Copy `.env.example` to `.env`
-4. Update `REACT_APP_API_URL` if needed
-5. Start development server: `npm start`
+3. Update `REACT_APP_API_URL` if needed
+4. Start development server: `npm start`
 
 Note: Backend server must be running before starting frontend.
 
