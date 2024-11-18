@@ -79,6 +79,7 @@ npm test template.test.js
 # Watch mode
 npm run test:watch
 ```
+![screenshot](Screenshot from 2024-11-18 09-18-00.png)
 
 ## Planned Improvements
 - Template categories support

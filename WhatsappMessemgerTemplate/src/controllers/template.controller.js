@@ -1,5 +1,4 @@
 const templateService = require('../services/template.service');
-const logger = require('../utils/logger');
 
 exports.previewTemplate = async (req, res) => {
   const startTime = Date.now(); 
