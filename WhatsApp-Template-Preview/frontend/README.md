@@ -1,111 +1,72 @@
 # WhatsApp Template Preview UI
 
-React-based frontend for previewing WhatsApp message templates. Part of Business Hero assignment - my first time working with template parsing UI!
+React-based frontend application for previewing WhatsApp message templates.
 
-> Note: This is a work in progress. Some features might break unexpectedly. Please create an issue if you find any bugs!
+## Quick Start
 
-## Quick Start 🚀
-
-# Install stuff
+```bash
+# Install dependencies
 npm install
 
-# Start dev server (runs on port 5000 to avoid conflict with backend)
+# Start development server
 npm start
 
 # Build for production
 npm run build
+```
 
-## Features ✨
+## Features
 - Live template preview
 - Dynamic variable input fields
-- Basic error handling
-- Responsive design (mostly 😅)
-- Local storage for unsaved work
-
-## Screenshots
-[Will add these soon - UI still needs some polish!]
+- Error handling
+- Responsive design
+- Local storage for persistence
 
 ## Tech Stack
-- React (Create React App)
-- Axios for API calls
-- Local Storage for persistence
-- Some basic CSS (need to clean this up)
-
-## Known Issues 🐛
-- [ ] Preview sometimes lags with rapid typing (need to fix debouncing)
-- [ ] Mobile layout breaks with too many variables
-- [ ] Chrome autofill messes up some input fields
-- [ ] Need better error messages
-- [ ] Some CSS is a bit hacky (especially the preview box)
+- React
+- Axios
+- Local Storage
+- CSS
 
 ## Development Setup
 
-1. Clone the repo
-2. Run npm install
-3. Copy .env.example to .env
-4. Update REACT_APP_API_URL if your backend runs on different port
-5. npm start and pray 🤞
+1. Clone the repository
+2. Install dependencies: `npm install`
+3. Copy `.env.example` to `.env`
+4. Update `REACT_APP_API_URL` if needed
+5. Start development server: `npm start`
 
-> Make sure backend server is running before starting frontend!
+Note: Backend server must be running before starting frontend.
 
 ## Project Structure
+```
 src/
   ├── components/   # React components
-  ├── hooks/       # Custom hooks (WIP)
+  ├── hooks/       # Custom hooks
   ├── utils/       # Helper functions
-  ├── styles/      # CSS files (needs cleanup!)
-  └── tests/       # Tests (TODO: add more)
+  ├── styles/      # CSS files
+  └── tests/       # Test files
+```
 
-## Local Development Tips 💡
-- Use React Dev Tools to debug state issues
-- Check console for API errors (lots of helpful messages!)
-- Hot reload sometimes breaks with template changes
-- Local storage can get messy - clear it if things break
+## Available Scripts
+- `npm start` - Runs development server
+- `npm test` - Runs test suite
+- `npm run build` - Builds for production
 
-## Things I Learned 📚
-- Should have used TypeScript from the start
-- Need better state management for complex templates
-- CSS Grid is awesome for responsive forms
-- React's useCallback is tricky with debouncing
-- Always backup before major refactors 😅
-
-## TODO List 📝
-- [ ] Add template history
-- [ ] Better mobile support
-- [ ] Add loading states
-- [ ] Proper error boundaries
-- [ ] Clean up CSS (it's a mess right now)
-- [ ] Add proper testing
-- [ ] Maybe add dark mode?
-- [ ] Fix that weird bug with emoji inputs
+## Environment Variables
+```
+REACT_APP_API_URL=http://localhost:5000
+REACT_APP_VERSION=$npm_package_version
+```
 
 ## Contributing
-PRs welcome! Could really use help with:
+Pull requests are welcome. Areas for contribution:
 - UI/UX improvements
 - Mobile responsiveness
 - Performance optimization
-- Testing (I'm bad at this 😬)
-
-## Available Scripts
-- npm start - Runs dev server
-- npm test - Runs tests (not many yet)
-- npm run build - Builds for production
-- npm run eject - No going back! (haven't needed this yet)
+- Testing coverage
 
 ## Deployment
-Currently deploying to Vercel (super easy setup!). Might switch to Netlify later.
 
-Build command: npm run build
-Output directory: build
 
-## Environment Variables
-REACT_APP_API_URL=http://localhost:5000
-REACT_APP_VERSION=$npm_package_version
-
-## Credits
-- Create React App team
-- Stack Overflow (my true mentor)
-- Coffee ☕
-
-## License
-
+##License
